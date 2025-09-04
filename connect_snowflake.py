@@ -11,7 +11,7 @@ def main():
     # Connect using Workload Identity Federation (OIDC)
     conn = snowflake.connector.connect(
         account=args.account,
-        user=args.user,
+        #user=args.user,
         authenticator="WORKLOAD_IDENTITY",
         workload_identity_provider="OIDC",
         token=args.token,
