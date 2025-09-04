@@ -4,7 +4,7 @@ import snowflake.connector
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--account", required=True, help="Snowflake account identifier (e.g. xy12345.us-east-1)")
-    parser.add_argument("--user", required=True, help="Snowflake service user name")
+    # parser.add_argument("--user", required=True, help="Snowflake service user name")
     parser.add_argument("--token", required=True, help="OIDC ID token from GitHub Actions")
     args = parser.parse_args()
 
