@@ -31,5 +31,4 @@ jobs:
         run: |
           python connect_snowflake.py \
             --account "sfcsupport-anshul_prod_west" \
-            --user "GITHUB_ACTIONS_USER" \
             --token "${{ steps.idtoken.outputs.token }}"
