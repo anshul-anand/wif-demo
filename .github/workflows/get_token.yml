@@ -1,4 +1,4 @@
-name: Debug OIDC Token
+name: get OIDC Token
 
 on:
   workflow_dispatch:
