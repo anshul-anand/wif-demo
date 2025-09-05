@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  debug-oidc:
+  get-oidc:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
